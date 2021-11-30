@@ -2,10 +2,9 @@ package com.company;
 
 import java.util.ArrayList;
 
-public class Spieler {
+public class Spieler implements Container{
     String name = "Artus";
     Raum aktuellerRaum = null;
-    ArrayList<Ding> Inventar = new ArrayList<>();
 
     public Spieler(Raum raum) {
         aktuellerRaum = raum;
@@ -19,7 +18,8 @@ public class Spieler {
         if (ding.istStatic) {
             System.out.println("Das Ding ist zu schwer");
         } else {
-            Inventar.add(ding);
+            ding.add(ding);
+            aktuellerRaum.rmDing(ding);
         }
     }
 
