@@ -19,6 +19,7 @@ public class Spieler implements Container{
             System.out.println("Das Ding ist zu schwer");
         } else {
             ding.add(ding);
+            aktuellerRaum.rmDing(ding);
         }
     }
 
