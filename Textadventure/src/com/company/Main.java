@@ -11,11 +11,15 @@ public class Main {
 
         Spieler artus = new Spieler(bach);
 
+        Ausgang bach_wiese = new Ausgang("bach_wiese", "", bach, wiese);
+
         Ding schwert = new Ding("Schwert", "Ein königliches Schwert", false);
 
         Truhe truhe = new Truhe("Truhe", "erste Truhe", true);
 
         truhe.addDing(schwert);
+
+        truhe.toString();
 
         bach.addDing(truhe);
 

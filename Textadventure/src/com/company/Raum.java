@@ -14,4 +14,13 @@ public class Raum extends Entitaet implements Container{
 
         Ausgaenge.add(ausgang);
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + " " + Ausgaenge.toString();
+    }
+
+    public ArrayList<Ausgang> getAusgaenge() {
+        return Ausgaenge;
+    }
 }
