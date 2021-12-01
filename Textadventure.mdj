@@ -205,23 +205,6 @@
 											"height": 13,
 											"text": "+HashMap getNachbarraeume()",
 											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAF9dmCRWcs1XPA=",
-											"_parent": {
-												"$ref": "AAAAAAF9TESN2fl2y/c="
-											},
-											"model": {
-												"$ref": "AAAAAAF9dmCRQssyTwU="
-											},
-											"font": "Arial;13;0",
-											"left": 485,
-											"top": 515,
-											"width": 275.67236328125,
-											"height": 13,
-											"text": "+HashMap getNachbarraeume()",
-											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
@@ -257,7 +240,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": -120,
 									"top": 296,
 									"width": 10,
@@ -266,7 +248,6 @@
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-
 							"left": 424,
 							"top": 448,
 							"width": 313.10693359375,
@@ -1233,7 +1214,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 745,
 									"top": 588,
 									"height": 13,
@@ -1255,7 +1235,6 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-
 									"left": 739,
 									"top": 602,
 									"height": 13,
@@ -1277,7 +1256,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 758,
 									"top": 561,
 									"height": 13,
@@ -1299,7 +1277,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 761,
 									"top": 595,
 									"height": 13,
@@ -1321,7 +1298,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 753,
 									"top": 606,
 									"height": 13,
@@ -1343,7 +1319,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 776,
 									"top": 571,
 									"height": 13,
@@ -1365,7 +1340,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 731,
 									"top": 582,
 									"height": 13,
@@ -1386,7 +1360,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 728,
 									"top": 595,
 									"height": 13,
@@ -1407,7 +1380,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 738,
 									"top": 555,
 									"height": 13,
@@ -1454,7 +1426,6 @@
 								"$ref": "AAAAAAF9W9IVqkWZlP0="
 							},
 							"lineStyle": 1,
-
 							"points": "791:598;714:564",
 							"showVisibility": true,
 							"showProperty": false,
@@ -2244,7 +2215,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 513,
 									"top": 428,
 									"height": 13,
@@ -2266,10 +2236,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-
 									"left": 501,
 									"top": 437,
-
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2289,7 +2257,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 538,
 									"top": 411,
 									"height": 13,
@@ -2311,7 +2278,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 512,
 									"top": 428,
 									"height": 13,
@@ -2333,7 +2299,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 500,
 									"top": 433,
 									"height": 13,
@@ -2355,7 +2320,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 538,
 									"top": 416,
 									"height": 13,
@@ -2377,7 +2341,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 514,
 									"top": 429,
 									"height": 13,
@@ -2418,7 +2381,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-
 									"left": 534,
 									"top": 410,
 									"height": 13,
@@ -2465,7 +2427,6 @@
 								"$ref": "AAAAAAF9TESN1flvp3Q="
 							},
 							"lineStyle": 1,
-
 							"points": "540:447;512:406",
 							"showVisibility": true,
 							"showProperty": false,
