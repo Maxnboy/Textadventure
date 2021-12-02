@@ -14,4 +14,8 @@ public abstract class Entitaet {
     public String toString() {
         return name + ":\t" + beschreibung;
     }
+
+    protected String getName() {
+        return name;
+    }
 }

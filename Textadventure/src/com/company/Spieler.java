@@ -29,19 +29,18 @@ public class Spieler implements Container {
         System.out.println(truhe.toString());
     }
 
-    public void setAktuellerRaum(Raum raum) {
-        if (raum == aktuellerRaum) {
+    public void setAktuellerRaum(String key, Raum raum) {
+        if (raum == this.aktuellerRaum) {
             //Exeption
+            System.out.println("Ich bin hier schon");
         } else {
-            for (Ausgang ausgang :
-                    this.aktuellerRaum.getAusgaenge()) {
-                if (ausgang.Raum1 == raum || ausgang.Raum2 == raum) {
-                    aktuellerRaum = raum;
-                    System.out.println(this.name + " ist im " + this.aktuellerRaum);
-                    return;
-                }
+            if(aktuellerRaum.getNachbarraeume().get(key) == null) {
+                //Exeption
+                System.out.println("Raum kein Zugang");
+            } else {
+                aktuellerRaum = raum;
+                System.out.println(name + " ist jetzt im " + this.aktuellerRaum.name);
             }
-            System.out.println("Raum zu weit weg!");
         }
     }
 }

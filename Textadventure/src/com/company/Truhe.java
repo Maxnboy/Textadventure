@@ -11,6 +11,6 @@ public class Truhe extends Ding implements Container{
 
     @Override
     public String toString() {
-        return super.toString() + dinge.toString();
+        return super.toString(); // + dinge.toString();
     }
 }

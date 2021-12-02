@@ -1,26 +1,35 @@
 package com.company;
 
-import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 public class Raum extends Entitaet implements Container{
 
-    private ArrayList<Ausgang> Ausgaenge = new ArrayList<>();
+    private HashMap<String, Raum> Nachbarraeume = new HashMap<>();
+
 
     public Raum(String name, String beschreibung) {
         super(name, beschreibung);
     }
 
-    public void addAusgang(Ausgang ausgang) {
-
-        Ausgaenge.add(ausgang);
+    public void addNachbarraum(String richtung, Raum raum) {
+        Nachbarraeume.put(richtung, raum);
     }
 
     @Override
     public String toString() {
-        return super.toString() + " " + Ausgaenge.toString();
+        String ret = super.toString() + "\n\tNachbarn: ";
+        Iterator<Map.Entry<String, Raum>> iterator = Nachbarraeume.entrySet().iterator();
+        while(iterator.hasNext()) {
+            ret = ret + Nachbarraeume.get(iterator.next().getKey()).getName() + "\t";
+        }
+
+        return ret;
     }
 
-    public ArrayList<Ausgang> getAusgaenge() {
-        return Ausgaenge;
+
+    public HashMap<String, Raum> getNachbarraeume() {
+        return Nachbarraeume;
     }
 }

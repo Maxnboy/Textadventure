@@ -11,8 +11,6 @@ public class Main {
 
         Spieler artus = new Spieler(bach);
 
-        Ausgang bach_wiese = new Ausgang("bach_wiese", "", bach, wiese);
-
         Ding schwert = new Ding("Schwert", "Ein königliches Schwert", false);
 
         Truhe truhe = new Truhe("Truhe", "erste Truhe", true);
@@ -21,15 +19,20 @@ public class Main {
 
         truhe.toString();
 
+        bach.addNachbarraum("vorne", wiese);
+
+        artus.setAktuellerRaum("vorne", wiese);
+
         bach.addDing(truhe);
 
         artus.take(truhe);
 
         artus.open(truhe);
 
-        System.out.println(dach.toString());
+        /*System.out.println(dach.toString());
         System.out.println(huette.toString());
-        System.out.println(wiese.toString());
+        System.out.println(wiese.toString());*/
+        //System.out.println(huette.toString());
         System.out.println(bach.toString());
         System.out.println(artus.toString());
 
