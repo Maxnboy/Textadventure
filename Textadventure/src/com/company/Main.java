@@ -1,40 +1,20 @@
+
 package com.company;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Raum dach = new Raum("Dach", "Dies ist das Dach der kleinen Hütte.");
-        Raum huette = new Raum("Hütte", "Dies ist eine kleine, verfallene Hütte am Waldrand.");
-        Raum wiese = new Raum("Wiese", "Eine Wildblumenwiese. Irgendetwas ist seltsam an dieser Wiese.");
-        Raum bach = new Raum("Bach", "Ein reißender Bergbach. Ein falscher Schritt kann dich das Leben kosten...");
+        //TODO NPC
 
-        Spieler artus = new Spieler(bach);
+        Room roof = new Room("Roof", "This is the roof of the small hut.");
+        Room hut = new Room("Hut", "Dies ist eine kleine, verfallene Hütte am Waldrand.");
+        Room field = new Room("Field", "Eine Wildblumenwiese. Irgendetwas ist seltsam an dieser Wiese.");
+        Room river = new Room("River", "Ein reißender Bergbach. Ein falscher Schritt kann dich das Leben kosten...");
+        Player artus = new Player(hut);
 
-        Ding schwert = new Ding("Schwert", "Ein königliches Schwert", false);
+        //Objective: escape room, Schnitzeljagd, Escape britain!!!!
 
-        Truhe truhe = new Truhe("Truhe", "erste Truhe", true);
-
-        truhe.addDing(schwert);
-
-        truhe.toString();
-
-        bach.addNachbarraum("vorne", wiese);
-
-        artus.setAktuellerRaum("vorne", wiese);
-
-        bach.addDing(truhe);
-
-        artus.take(truhe);
-
-        artus.open(truhe);
-
-        /*System.out.println(dach.toString());
-        System.out.println(huette.toString());
-        System.out.println(wiese.toString());*/
-        //System.out.println(huette.toString());
-        System.out.println(bach.toString());
-        System.out.println(artus.toString());
 
     }
 }
