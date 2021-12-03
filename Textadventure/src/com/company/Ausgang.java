@@ -1,6 +1,6 @@
 package com.company;
 
-public class Ausgang extends Entitaet{
+public class Ausgang extends Entitaet {
     Raum Raum1 = null;
     Raum Raum2 = null;
 

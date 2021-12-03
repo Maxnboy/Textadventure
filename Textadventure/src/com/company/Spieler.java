@@ -34,7 +34,7 @@ public class Spieler implements Container {
             //Exeption
             System.out.println("Ich bin hier schon");
         } else {
-            if(aktuellerRaum.getNachbarraeume().get(key) == null) {
+            if (aktuellerRaum.getNachbarraeume().get(key) == null) {
                 //Exeption
                 System.out.println("Raum kein Zugang");
             } else {
